@@ -49,7 +49,7 @@ function createManager() {
             nextStep()
             
         })
-}
+};
 
 
 function nextStep() {
@@ -72,7 +72,7 @@ function nextStep() {
             }
         
         })
-}
+};
 
 function createEngineer() {
     inquirer
@@ -106,7 +106,7 @@ function createEngineer() {
         })
 
     
-}
+};
 
 function createIntern() {
     inquirer
@@ -138,8 +138,8 @@ function createIntern() {
             nextStep()
             
         })
-}
+};
 
 function createTeam() {
     fs.writeFileSync(outputPath, render(employees), "utf-8");
-}
+};
