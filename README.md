@@ -6,9 +6,9 @@
 An app that generates an HTML file displaying the Employees on a team, based on user input into the terminal. Created using test driven development, JavaScript, Node.js, Jest, and Inquirer.
 
 ![screen shot](assets/screen-shot.png)
-
 ## Video Walk-through
-![video walk-through](assets/team-generator.mp4)
+https://vimeo.com/575971741
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
