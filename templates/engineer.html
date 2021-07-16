@@ -1,0 +1,28 @@
+<div class="column is-4">
+    <div class="card">
+        <header class="card-header">
+            <p class="card-header-title is-size-4">
+              {{ name }}
+            </p>
+        </header>
+        <div class="card-content pb-0">
+            <div class="content is-size-7 is-uppercase has-text-weight-semibold tag is-primary">
+                <i class="fas fa-glasses mr-2"></i> {{ role }} 
+            </div>
+        </div>
+        <div class="card-content">
+        <div class="content">
+            <section class="menu">
+                <p class="menu-label">
+                  Profile
+                </p>
+                <ul class="menu-list">
+                  <li>ID: {{ ID }}</li>
+                  <li>Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                  <li>GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></li>
+                </ul>
+            </section>
+        </div>
+        </div>
+    </div>
+</div>
